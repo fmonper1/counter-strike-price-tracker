@@ -17,6 +17,21 @@ This file contains a JSON object where each key is the market hash name of the i
 
 ---
 
+## Prices from specific date
+
+You can fetch the **prices** for all items from specific date (since 2025-01-15) from the following endpoint:
+
+https://raw.githubusercontent.com/ByMykel/counter-strike-price-tracker/main/static/prices/{date}.json
+
+Replace `{date}` with the date in YYYY-MM-DD format. For example:
+
+**Date:** `2025-01-15`  
+**Endpoint:** https://raw.githubusercontent.com/ByMykel/counter-strike-price-tracker/main/static/prices/2025-01-15.json
+
+This file contains a JSON object where each key is the market hash name of the item, and the value is its latest steam price.
+
+---
+
 ## Specific Item Price History
 
 To fetch the **price history** for a specific item, use the following endpoint:
